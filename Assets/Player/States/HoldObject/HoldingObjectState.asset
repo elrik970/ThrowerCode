@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfe039eb9eeee3349b6f1c348ee77e84, type: 3}
+  m_Name: HoldingObjectState
+  m_EditorClassIdentifier: 
+  runner: {fileID: 0}
+  player: {fileID: 0}
+  rb: {fileID: 0}
+  HeldObject: {fileID: 0}
+  IdleState: {fileID: 11400000, guid: b00fa32dc8bd59949b22655788bedeb6, type: 2}
+  maxSpeed: 15
+  OriginalMaxSpeed: 15
+  DeAccelRate: 0.1
+  YOffset: 0
+  ZOffset: 0
+  HealAmount: 3
+  HealEffect: {fileID: 227101006787005293, guid: 255222ba88b65134989062b453562ad3,
+    type: 3}
+  DividedBy: 2
